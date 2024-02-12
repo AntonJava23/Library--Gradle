@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="se.yrgo.models.BookCatalogTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-02-12T07:16:06" hostname="TARDIS" time="0.019">
+  <properties/>
+  <testcase name="testAddABook()" classname="se.yrgo.models.BookCatalogTest" time="0.013"/>
+  <testcase name="testFindBook()" classname="se.yrgo.models.BookCatalogTest" time="0.0"/>
+  <testcase name="testFindBookIgnoringCase()" classname="se.yrgo.models.BookCatalogTest" time="0.0"/>
+  <testcase name="testFindBookWithExtraSpaces()" classname="se.yrgo.models.BookCatalogTest" time="0.001"/>
+  <testcase name="testFindBookThatDoesntExist()" classname="se.yrgo.models.BookCatalogTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
