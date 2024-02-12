@@ -47,8 +47,7 @@ public class BookCatalogTest {
     public void testFindBookWithExtraSpaces() throws BookNotFoundException {
         Book book2 = new Book(3, "Old man and the sea", "Hemmingway", "233436364563", "gg", 237);
         bc.addBook(book2);
-        assertEquals(book2, bc.findBook("Old      man   and the sea".replaceAll("\\s+", " ")));
-        assertThrows(BookNotFoundException.class, () ->  bc.findBook("Old      man   and the sea"));
+        assertEquals(book2, bc.findBook("Old man and the sea    "));
     }
 
     //VG
